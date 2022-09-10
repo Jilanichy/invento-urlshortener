@@ -16,7 +16,8 @@
 
 ## API Endpoints, their request methods & functionalities
 * `api/register/` a user can register from this route by simply making a post request with the following json format
-```{
+```
+{
     "username": "demoName",
     "email": "name@demo.com",
     "password": "demoPass@123"
