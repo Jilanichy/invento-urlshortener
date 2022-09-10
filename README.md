@@ -41,7 +41,7 @@
 }
 ```
 * `api/logout/` & `api/logoutall` a single or all the users can log out.
-* `shortenurl/' this is where anybody can shorten a url by a `POST` request with the logurl. Here's the format of request.
+* `shortenurl/` this is where anybody can shorten a url by a `POST` request with the logurl. Here's the format of request.
 ```
 {'logurl': 'https://sampleurl.com/sampleroute'}
 ```
