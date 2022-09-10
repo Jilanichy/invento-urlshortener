@@ -44,7 +44,14 @@
 * `api/logout/` & `api/logoutall` a single or all the users can log out.
 * `shortenurl/` this is where anybody can shorten a url by a `POST` request with the logurl. Here's the format of request.
 ```
-{'logurl': 'https://sampleurl.com/sampleroute'}
+{"longurl": "https://aeon.co/ideas/the-danger-of-absolute-thinking-is-absolutely-clear"}
+```
+* We'll get a response of shorten url as like below.
+```
+{
+    "longurl": "https://aeon.co/ideas/the-danger-of-absolute-thinking-is-absolutely-clear",
+    "shorturl": "http://localhost:8000/goZm3*"
+}
 ```
 
 # Quick Video Walkthough
