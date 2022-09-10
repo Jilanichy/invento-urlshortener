@@ -42,7 +42,7 @@
 }
 ```
 * `api/logout/` & `api/logoutall` a single or all the users can log out.
-* `shortenurl/` this is where anybody can shorten a url by a `POST` request with the logurl. Here's the format of request.
+* `shortenurl/` this is where anybody can shorten a url with a `POST` request by giving the `longurl` value. Here's the format of request.
 ```
 {"longurl": "https://aeon.co/ideas/the-danger-of-absolute-thinking-is-absolutely-clear"}
 ```
