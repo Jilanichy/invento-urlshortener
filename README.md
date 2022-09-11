@@ -34,7 +34,7 @@
     "token": "12440f9d571sdavn678bbc9c4447f135hfnecf4d1404f080245f3e259709jadsfn907"
 }
 ```
-* `api/login` a register user can login by providing credential.
+* `api/login/` a register user can login by providing credential.
 ```
 {
     "username": "demoName",
@@ -56,3 +56,6 @@
 
 # Quick Video Walkthough
 https://drive.google.com/file/d/1fPNpLzhFfllOdvVRt95DPJMjMqFgCnQR/view?usp=sharing
+
+# Deployed Link
+https://invento.herokuapp.com/
